@@ -83,7 +83,7 @@ class ViewController: UIViewController {
         var password = passwordInput?.text;
         println(name);
         println(password);
-        var homeController = homeViewController();
+        var homeController = homeTableViewController();
         var homeNav = UINavigationController(rootViewController: homeController);
         self .presentViewController(homeNav, animated: true, completion: nil)
 //        self.navigationController?.pushViewController(homeNav, animated:false);

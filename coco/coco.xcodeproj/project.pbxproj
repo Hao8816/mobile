@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872A0E0E1A49B5A10058D04E /* homeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A0E0D1A49B5A10058D04E /* homeTableViewController.swift */; };
+		872A0E101A49B60D0058D04E /* homeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A0E0F1A49B60D0058D04E /* homeTableViewCell.swift */; };
 		8740B0B31A4481A600F11642 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8740B0B21A4481A600F11642 /* homeViewController.swift */; };
 		87F572811A4315E3006D5DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F572801A4315E3006D5DBF /* AppDelegate.swift */; };
 		87F572841A4315E3006D5DBF /* coco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F572821A4315E3006D5DBF /* coco.xcdatamodeld */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		872A0E0D1A49B5A10058D04E /* homeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewController.swift; sourceTree = "<group>"; };
+		872A0E0F1A49B60D0058D04E /* homeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewCell.swift; sourceTree = "<group>"; };
 		8740B0B21A4481A600F11642 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		87F5727B1A4315E3006D5DBF /* coco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87F5727F1A4315E3006D5DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 			children = (
 				87F572801A4315E3006D5DBF /* AppDelegate.swift */,
 				87F572851A4315E3006D5DBF /* ViewController.swift */,
+				872A0E0D1A49B5A10058D04E /* homeTableViewController.swift */,
+				872A0E0F1A49B60D0058D04E /* homeTableViewCell.swift */,
 				8740B0B21A4481A600F11642 /* homeViewController.swift */,
 				87F572871A4315E3006D5DBF /* Main.storyboard */,
 				87F5728A1A4315E3006D5DBF /* Images.xcassets */,
@@ -218,9 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872A0E0E1A49B5A10058D04E /* homeTableViewController.swift in Sources */,
 				87F572861A4315E3006D5DBF /* ViewController.swift in Sources */,
 				87F572811A4315E3006D5DBF /* AppDelegate.swift in Sources */,
 				8740B0B31A4481A600F11642 /* homeViewController.swift in Sources */,
+				872A0E101A49B60D0058D04E /* homeTableViewCell.swift in Sources */,
 				87F572841A4315E3006D5DBF /* coco.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

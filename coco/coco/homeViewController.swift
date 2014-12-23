@@ -12,8 +12,8 @@ class homeViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let leftItem=UIBarButtonItem(title:"@",style:.Plain,target:self,action:"nextPage");
-        self.navigationItem.leftBarButtonItem = leftItem;
+        //let leftItem=UIBarButtonItem(title:"@",style:.Plain,target:self,action:"nextPage");
+        //self.navigationItem.leftBarButtonItem = leftItem;
         self.navigationItem.title = "主页";
         
         //var navController = UINavigationController(rootViewController: self);
@@ -25,6 +25,7 @@ class homeViewController: UIViewController{
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*

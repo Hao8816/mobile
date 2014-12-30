@@ -9,15 +9,17 @@
 import UIKit
 
 class homeTableViewController: UITableViewController,UITableViewDelegate,UITableViewDataSource {
+    
     var homeTable:UITableView?;
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "我的主页";
-        homeTable = UITableView(frame: self.view.bounds, style: .Plain);
+        homeTable = UITableView()
+        homeTable = UITableView(frame: CGRectMake(0, 0, 320, 480), style: .Plain);
         //homeTable.style = UITableViewStyle.Plain;
         homeTable!.delegate = self;
         homeTable!.dataSource = self;
-        self.view.addSubview(homeTable);
+        self.view.addSubview(homeTable!);
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -35,7 +37,7 @@ class homeTableViewController: UITableViewController,UITableViewDelegate,UITable
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Potentially incomplete method implementation.
         // Return the number of sections.
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -45,15 +47,27 @@ class homeTableViewController: UITableViewController,UITableViewDelegate,UITable
     }
 
     
-    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+   override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         //let tableCellView = homeTableViewCell();
         //let cell = tableCellView
-        let cellId = "cellI";
+      /*  var cellId = "cellI";
         var cell = tableView.dequeueReusableCellWithIdentifier(cellId) as? UITableViewCell;
         //var cell = tableView.dequeueReusableCellWithIdentifier(cellId) as？ UITableViewCell;
         if (cell == nil) {
             cell = UITableViewCell(style:UITableViewCellStyle.Default, reuseIdentifier: cellId);
         }
+        */
+        var cellID = "cellID"
+      //   var cell = tableView.dequeueReusableCellWithIdentifier(cellID)
+        var cellstr   = tableView.dequeueReusableCellWithIdentifier(cellID) as UITableViewCell
+    
+        if (cellstr == nil) {
+            
+        var cellstr = UITableViewCell (style: UITableViewCellStyle.Subtitle, reuseIdentifier: cellID)
+    
+        }
+        cellstr.textLabel?.text = "\(indexPath.row)"
+        return cellstr
         //cell = homeTableViewCell()
         //let title = UILabel(frame: CGRectMake(0, 0, 100, 40));
         //title.text = "实力";
@@ -61,10 +75,12 @@ class homeTableViewController: UITableViewController,UITableViewDelegate,UITable
         //cell.addSubview();
         // Configure the cell...
 
-        return cell!;
+       // return cell!;
     }
-    
 
+    
+ 
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {

@@ -58,16 +58,17 @@ class homeTableViewController: UITableViewController,UITableViewDelegate,UITable
         }
         */
         var cellID = "cellID"
+        var cell = tableView.dequeueReusableCellWithIdentifier(cellID) as? UITableViewCell;
       //   var cell = tableView.dequeueReusableCellWithIdentifier(cellID)
         var cellstr   = tableView.dequeueReusableCellWithIdentifier(cellID) as UITableViewCell
     
-        if (cellstr == nil) {
+        //if (cellstr == nil) {
             
-        var cellstr = UITableViewCell (style: UITableViewCellStyle.Subtitle, reuseIdentifier: cellID)
+        //var cellstr = UITableViewCell (style: UITableViewCellStyle.Subtitle, reuseIdentifier: cellID)
     
-        }
-        cellstr.textLabel?.text = "\(indexPath.row)"
-        return cellstr
+        //}
+        //cellstr.textLabel?.text = "\(indexPath.row)"
+        return cell!
         //cell = homeTableViewCell()
         //let title = UILabel(frame: CGRectMake(0, 0, 100, 40));
         //title.text = "实力";

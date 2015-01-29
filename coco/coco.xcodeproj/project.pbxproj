@@ -7,56 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		872A0E0E1A49B5A10058D04E /* homeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872A0E0D1A49B5A10058D04E /* homeTableViewController.swift */; };
-		8740B0B31A4481A600F11642 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8740B0B21A4481A600F11642 /* homeViewController.swift */; };
-		87B1DBB91A55939900BD8E9C /* head_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B1DBB81A55939900BD8E9C /* head_image.png */; };
-		87D4F73D1A544B54004DFA69 /* homeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D4F73C1A544B54004DFA69 /* homeTableViewCell.swift */; };
-		87F572811A4315E3006D5DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F572801A4315E3006D5DBF /* AppDelegate.swift */; };
-		87F572841A4315E3006D5DBF /* coco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87F572821A4315E3006D5DBF /* coco.xcdatamodeld */; };
-		87F572861A4315E3006D5DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F572851A4315E3006D5DBF /* ViewController.swift */; };
-		87F572891A4315E3006D5DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87F572871A4315E3006D5DBF /* Main.storyboard */; };
-		87F5728B1A4315E3006D5DBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87F5728A1A4315E3006D5DBF /* Images.xcassets */; };
-		87F5728E1A4315E3006D5DBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87F5728C1A4315E3006D5DBF /* LaunchScreen.xib */; };
-		87F5729A1A4315E3006D5DBF /* cocoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F572991A4315E3006D5DBF /* cocoTests.swift */; };
+		87A1396D1A7A760600598E79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1396C1A7A760600598E79 /* AppDelegate.swift */; };
+		87A139701A7A760600598E79 /* coco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87A1396E1A7A760600598E79 /* coco.xcdatamodeld */; };
+		87A139751A7A760600598E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A139731A7A760600598E79 /* Main.storyboard */; };
+		87A139771A7A760600598E79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87A139761A7A760600598E79 /* Images.xcassets */; };
+		87A1397A1A7A760600598E79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A139781A7A760600598E79 /* LaunchScreen.xib */; };
+		87A139861A7A760600598E79 /* cocoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A139851A7A760600598E79 /* cocoTests.swift */; };
+		87A139901A7A76B100598E79 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A1398F1A7A76B100598E79 /* homeViewController.swift */; };
+		87A139B71A7A815800598E79 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139AB1A7A815800598E79 /* back@2x.png */; };
+		87A139B81A7A815800598E79 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139AC1A7A815800598E79 /* menu@2x.png */; };
+		87A139B91A7A815800598E79 /* mic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139AD1A7A815800598E79 /* mic@2x.png */; };
+		87A139BA1A7A815800598E79 /* more-vert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139AE1A7A815800598E79 /* more-vert@2x.png */; };
+		87A139BB1A7A815800598E79 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139AF1A7A815800598E79 /* search@2x.png */; };
+		87A139BC1A7A815800598E79 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139B01A7A815800598E79 /* share@2x.png */; };
+		87A139BD1A7A815800598E79 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139B11A7A815800598E79 /* back@3x.png */; };
+		87A139BE1A7A815800598E79 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139B21A7A815800598E79 /* menu@3x.png */; };
+		87A139BF1A7A815800598E79 /* mic@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139B31A7A815800598E79 /* mic@3x.png */; };
+		87A139C01A7A815800598E79 /* more-vert@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139B41A7A815800598E79 /* more-vert@3x.png */; };
+		87A139C11A7A815800598E79 /* search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139B51A7A815800598E79 /* search@3x.png */; };
+		87A139C21A7A815800598E79 /* share@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A139B61A7A815800598E79 /* share@3x.png */; };
+		87A139C41A7A899C00598E79 /* searchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A139C31A7A899C00598E79 /* searchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		87F572941A4315E3006D5DBF /* PBXContainerItemProxy */ = {
+		87A139801A7A760600598E79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 87F572731A4315E3006D5DBF /* Project object */;
+			containerPortal = 87A1395F1A7A760600598E79 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 87F5727A1A4315E3006D5DBF;
+			remoteGlobalIDString = 87A139661A7A760600598E79;
 			remoteInfo = coco;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		872A0E0D1A49B5A10058D04E /* homeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewController.swift; sourceTree = "<group>"; };
-		8740B0B21A4481A600F11642 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
-		87B1DBB81A55939900BD8E9C /* head_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_image.png; sourceTree = "<group>"; };
-		87D4F73C1A544B54004DFA69 /* homeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeTableViewCell.swift; sourceTree = "<group>"; };
-		87F5727B1A4315E3006D5DBF /* coco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coco.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		87F5727F1A4315E3006D5DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87F572801A4315E3006D5DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87F572831A4315E3006D5DBF /* coco.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coco.xcdatamodel; sourceTree = "<group>"; };
-		87F572851A4315E3006D5DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		87F572881A4315E3006D5DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87F5728A1A4315E3006D5DBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		87F5728D1A4315E3006D5DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		87F572931A4315E3006D5DBF /* cocoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		87F572981A4315E3006D5DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		87F572991A4315E3006D5DBF /* cocoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocoTests.swift; sourceTree = "<group>"; };
+		87A139671A7A760600598E79 /* coco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A1396B1A7A760600598E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A1396C1A7A760600598E79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87A1396F1A7A760600598E79 /* coco.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coco.xcdatamodel; sourceTree = "<group>"; };
+		87A139741A7A760600598E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87A139761A7A760600598E79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87A139791A7A760600598E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		87A1397F1A7A760600598E79 /* cocoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87A139841A7A760600598E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87A139851A7A760600598E79 /* cocoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocoTests.swift; sourceTree = "<group>"; };
+		87A1398F1A7A76B100598E79 /* homeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		87A139AB1A7A815800598E79 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		87A139AC1A7A815800598E79 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		87A139AD1A7A815800598E79 /* mic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic@2x.png"; sourceTree = "<group>"; };
+		87A139AE1A7A815800598E79 /* more-vert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-vert@2x.png"; sourceTree = "<group>"; };
+		87A139AF1A7A815800598E79 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		87A139B01A7A815800598E79 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
+		87A139B11A7A815800598E79 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
+		87A139B21A7A815800598E79 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
+		87A139B31A7A815800598E79 /* mic@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mic@3x.png"; sourceTree = "<group>"; };
+		87A139B41A7A815800598E79 /* more-vert@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "more-vert@3x.png"; sourceTree = "<group>"; };
+		87A139B51A7A815800598E79 /* search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@3x.png"; sourceTree = "<group>"; };
+		87A139B61A7A815800598E79 /* share@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@3x.png"; sourceTree = "<group>"; };
+		87A139C31A7A899C00598E79 /* searchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		87F572781A4315E3006D5DBF /* Frameworks */ = {
+		87A139641A7A760600598E79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F572901A4315E3006D5DBF /* Frameworks */ = {
+		87A1397C1A7A760600598E79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,77 +84,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		87F572721A4315E3006D5DBF = {
+		87A1395E1A7A760600598E79 = {
 			isa = PBXGroup;
 			children = (
-				87F5727D1A4315E3006D5DBF /* coco */,
-				87F572961A4315E3006D5DBF /* cocoTests */,
-				87F5727C1A4315E3006D5DBF /* Products */,
+				87A139691A7A760600598E79 /* coco */,
+				87A139821A7A760600598E79 /* cocoTests */,
+				87A139681A7A760600598E79 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		87F5727C1A4315E3006D5DBF /* Products */ = {
+		87A139681A7A760600598E79 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				87F5727B1A4315E3006D5DBF /* coco.app */,
-				87F572931A4315E3006D5DBF /* cocoTests.xctest */,
+				87A139671A7A760600598E79 /* coco.app */,
+				87A1397F1A7A760600598E79 /* cocoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		87F5727D1A4315E3006D5DBF /* coco */ = {
+		87A139691A7A760600598E79 /* coco */ = {
 			isa = PBXGroup;
 			children = (
-				87B1DBB81A55939900BD8E9C /* head_image.png */,
-				87F572801A4315E3006D5DBF /* AppDelegate.swift */,
-				87F572851A4315E3006D5DBF /* ViewController.swift */,
-				872A0E0D1A49B5A10058D04E /* homeTableViewController.swift */,
-				87D4F73C1A544B54004DFA69 /* homeTableViewCell.swift */,
-				8740B0B21A4481A600F11642 /* homeViewController.swift */,
-				87F572871A4315E3006D5DBF /* Main.storyboard */,
-				87F5728A1A4315E3006D5DBF /* Images.xcassets */,
-				87F5728C1A4315E3006D5DBF /* LaunchScreen.xib */,
-				87F572821A4315E3006D5DBF /* coco.xcdatamodeld */,
-				87F5727E1A4315E3006D5DBF /* Supporting Files */,
+				87A139911A7A80C700598E79 /* icons */,
+				87A1396C1A7A760600598E79 /* AppDelegate.swift */,
+				87A1398F1A7A76B100598E79 /* homeViewController.swift */,
+				87A139731A7A760600598E79 /* Main.storyboard */,
+				87A139761A7A760600598E79 /* Images.xcassets */,
+				87A139781A7A760600598E79 /* LaunchScreen.xib */,
+				87A1396E1A7A760600598E79 /* coco.xcdatamodeld */,
+				87A1396A1A7A760600598E79 /* Supporting Files */,
+				87A139C31A7A899C00598E79 /* searchViewController.swift */,
 			);
 			path = coco;
 			sourceTree = "<group>";
 		};
-		87F5727E1A4315E3006D5DBF /* Supporting Files */ = {
+		87A1396A1A7A760600598E79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				87F5727F1A4315E3006D5DBF /* Info.plist */,
+				87A1396B1A7A760600598E79 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		87F572961A4315E3006D5DBF /* cocoTests */ = {
+		87A139821A7A760600598E79 /* cocoTests */ = {
 			isa = PBXGroup;
 			children = (
-				87F572991A4315E3006D5DBF /* cocoTests.swift */,
-				87F572971A4315E3006D5DBF /* Supporting Files */,
+				87A139851A7A760600598E79 /* cocoTests.swift */,
+				87A139831A7A760600598E79 /* Supporting Files */,
 			);
 			path = cocoTests;
 			sourceTree = "<group>";
 		};
-		87F572971A4315E3006D5DBF /* Supporting Files */ = {
+		87A139831A7A760600598E79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				87F572981A4315E3006D5DBF /* Info.plist */,
+				87A139841A7A760600598E79 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A139911A7A80C700598E79 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				87A139921A7A80DF00598E79 /* white-icons */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		87A139921A7A80DF00598E79 /* white-icons */ = {
+			isa = PBXGroup;
+			children = (
+				87A139AB1A7A815800598E79 /* back@2x.png */,
+				87A139AC1A7A815800598E79 /* menu@2x.png */,
+				87A139AD1A7A815800598E79 /* mic@2x.png */,
+				87A139AE1A7A815800598E79 /* more-vert@2x.png */,
+				87A139AF1A7A815800598E79 /* search@2x.png */,
+				87A139B01A7A815800598E79 /* share@2x.png */,
+				87A139B11A7A815800598E79 /* back@3x.png */,
+				87A139B21A7A815800598E79 /* menu@3x.png */,
+				87A139B31A7A815800598E79 /* mic@3x.png */,
+				87A139B41A7A815800598E79 /* more-vert@3x.png */,
+				87A139B51A7A815800598E79 /* search@3x.png */,
+				87A139B61A7A815800598E79 /* share@3x.png */,
+			);
+			name = "white-icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		87F5727A1A4315E3006D5DBF /* coco */ = {
+		87A139661A7A760600598E79 /* coco */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87F5729D1A4315E3006D5DBF /* Build configuration list for PBXNativeTarget "coco" */;
+			buildConfigurationList = 87A139891A7A760600598E79 /* Build configuration list for PBXNativeTarget "coco" */;
 			buildPhases = (
-				87F572771A4315E3006D5DBF /* Sources */,
-				87F572781A4315E3006D5DBF /* Frameworks */,
-				87F572791A4315E3006D5DBF /* Resources */,
+				87A139631A7A760600598E79 /* Sources */,
+				87A139641A7A760600598E79 /* Frameworks */,
+				87A139651A7A760600598E79 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,46 +187,46 @@
 			);
 			name = coco;
 			productName = coco;
-			productReference = 87F5727B1A4315E3006D5DBF /* coco.app */;
+			productReference = 87A139671A7A760600598E79 /* coco.app */;
 			productType = "com.apple.product-type.application";
 		};
-		87F572921A4315E3006D5DBF /* cocoTests */ = {
+		87A1397E1A7A760600598E79 /* cocoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87F572A01A4315E3006D5DBF /* Build configuration list for PBXNativeTarget "cocoTests" */;
+			buildConfigurationList = 87A1398C1A7A760600598E79 /* Build configuration list for PBXNativeTarget "cocoTests" */;
 			buildPhases = (
-				87F5728F1A4315E3006D5DBF /* Sources */,
-				87F572901A4315E3006D5DBF /* Frameworks */,
-				87F572911A4315E3006D5DBF /* Resources */,
+				87A1397B1A7A760600598E79 /* Sources */,
+				87A1397C1A7A760600598E79 /* Frameworks */,
+				87A1397D1A7A760600598E79 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87F572951A4315E3006D5DBF /* PBXTargetDependency */,
+				87A139811A7A760600598E79 /* PBXTargetDependency */,
 			);
 			name = cocoTests;
 			productName = cocoTests;
-			productReference = 87F572931A4315E3006D5DBF /* cocoTests.xctest */;
+			productReference = 87A1397F1A7A760600598E79 /* cocoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		87F572731A4315E3006D5DBF /* Project object */ = {
+		87A1395F1A7A760600598E79 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "陈昊昊";
 				TargetAttributes = {
-					87F5727A1A4315E3006D5DBF = {
+					87A139661A7A760600598E79 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					87F572921A4315E3006D5DBF = {
+					87A1397E1A7A760600598E79 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 87F5727A1A4315E3006D5DBF;
+						TestTargetID = 87A139661A7A760600598E79;
 					};
 				};
 			};
-			buildConfigurationList = 87F572761A4315E3006D5DBF /* Build configuration list for PBXProject "coco" */;
+			buildConfigurationList = 87A139621A7A760600598E79 /* Build configuration list for PBXProject "coco" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,30 +234,41 @@
 				en,
 				Base,
 			);
-			mainGroup = 87F572721A4315E3006D5DBF;
-			productRefGroup = 87F5727C1A4315E3006D5DBF /* Products */;
+			mainGroup = 87A1395E1A7A760600598E79;
+			productRefGroup = 87A139681A7A760600598E79 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				87F5727A1A4315E3006D5DBF /* coco */,
-				87F572921A4315E3006D5DBF /* cocoTests */,
+				87A139661A7A760600598E79 /* coco */,
+				87A1397E1A7A760600598E79 /* cocoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		87F572791A4315E3006D5DBF /* Resources */ = {
+		87A139651A7A760600598E79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F572891A4315E3006D5DBF /* Main.storyboard in Resources */,
-				87B1DBB91A55939900BD8E9C /* head_image.png in Resources */,
-				87F5728E1A4315E3006D5DBF /* LaunchScreen.xib in Resources */,
-				87F5728B1A4315E3006D5DBF /* Images.xcassets in Resources */,
+				87A139BD1A7A815800598E79 /* back@3x.png in Resources */,
+				87A139C11A7A815800598E79 /* search@3x.png in Resources */,
+				87A139BB1A7A815800598E79 /* search@2x.png in Resources */,
+				87A139C01A7A815800598E79 /* more-vert@3x.png in Resources */,
+				87A139751A7A760600598E79 /* Main.storyboard in Resources */,
+				87A139C21A7A815800598E79 /* share@3x.png in Resources */,
+				87A139BE1A7A815800598E79 /* menu@3x.png in Resources */,
+				87A139BC1A7A815800598E79 /* share@2x.png in Resources */,
+				87A139BF1A7A815800598E79 /* mic@3x.png in Resources */,
+				87A139B71A7A815800598E79 /* back@2x.png in Resources */,
+				87A139B81A7A815800598E79 /* menu@2x.png in Resources */,
+				87A1397A1A7A760600598E79 /* LaunchScreen.xib in Resources */,
+				87A139BA1A7A815800598E79 /* more-vert@2x.png in Resources */,
+				87A139B91A7A815800598E79 /* mic@2x.png in Resources */,
+				87A139771A7A760600598E79 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F572911A4315E3006D5DBF /* Resources */ = {
+		87A1397D1A7A760600598E79 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -224,50 +278,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		87F572771A4315E3006D5DBF /* Sources */ = {
+		87A139631A7A760600598E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872A0E0E1A49B5A10058D04E /* homeTableViewController.swift in Sources */,
-				87F572861A4315E3006D5DBF /* ViewController.swift in Sources */,
-				87F572811A4315E3006D5DBF /* AppDelegate.swift in Sources */,
-				8740B0B31A4481A600F11642 /* homeViewController.swift in Sources */,
-				87D4F73D1A544B54004DFA69 /* homeTableViewCell.swift in Sources */,
-				87F572841A4315E3006D5DBF /* coco.xcdatamodeld in Sources */,
+				87A1396D1A7A760600598E79 /* AppDelegate.swift in Sources */,
+				87A139901A7A76B100598E79 /* homeViewController.swift in Sources */,
+				87A139C41A7A899C00598E79 /* searchViewController.swift in Sources */,
+				87A139701A7A760600598E79 /* coco.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87F5728F1A4315E3006D5DBF /* Sources */ = {
+		87A1397B1A7A760600598E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F5729A1A4315E3006D5DBF /* cocoTests.swift in Sources */,
+				87A139861A7A760600598E79 /* cocoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		87F572951A4315E3006D5DBF /* PBXTargetDependency */ = {
+		87A139811A7A760600598E79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 87F5727A1A4315E3006D5DBF /* coco */;
-			targetProxy = 87F572941A4315E3006D5DBF /* PBXContainerItemProxy */;
+			target = 87A139661A7A760600598E79 /* coco */;
+			targetProxy = 87A139801A7A760600598E79 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		87F572871A4315E3006D5DBF /* Main.storyboard */ = {
+		87A139731A7A760600598E79 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				87F572881A4315E3006D5DBF /* Base */,
+				87A139741A7A760600598E79 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		87F5728C1A4315E3006D5DBF /* LaunchScreen.xib */ = {
+		87A139781A7A760600598E79 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				87F5728D1A4315E3006D5DBF /* Base */,
+				87A139791A7A760600598E79 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -275,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		87F5729B1A4315E3006D5DBF /* Debug */ = {
+		87A139871A7A760600598E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -318,7 +370,7 @@
 			};
 			name = Debug;
 		};
-		87F5729C1A4315E3006D5DBF /* Release */ = {
+		87A139881A7A760600598E79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -354,7 +406,7 @@
 			};
 			name = Release;
 		};
-		87F5729E1A4315E3006D5DBF /* Debug */ = {
+		87A1398A1A7A760600598E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -364,7 +416,7 @@
 			};
 			name = Debug;
 		};
-		87F5729F1A4315E3006D5DBF /* Release */ = {
+		87A1398B1A7A760600598E79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -374,7 +426,7 @@
 			};
 			name = Release;
 		};
-		87F572A11A4315E3006D5DBF /* Debug */ = {
+		87A1398D1A7A760600598E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -393,7 +445,7 @@
 			};
 			name = Debug;
 		};
-		87F572A21A4315E3006D5DBF /* Release */ = {
+		87A1398E1A7A760600598E79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -411,47 +463,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		87F572761A4315E3006D5DBF /* Build configuration list for PBXProject "coco" */ = {
+		87A139621A7A760600598E79 /* Build configuration list for PBXProject "coco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87F5729B1A4315E3006D5DBF /* Debug */,
-				87F5729C1A4315E3006D5DBF /* Release */,
+				87A139871A7A760600598E79 /* Debug */,
+				87A139881A7A760600598E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87F5729D1A4315E3006D5DBF /* Build configuration list for PBXNativeTarget "coco" */ = {
+		87A139891A7A760600598E79 /* Build configuration list for PBXNativeTarget "coco" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87F5729E1A4315E3006D5DBF /* Debug */,
-				87F5729F1A4315E3006D5DBF /* Release */,
+				87A1398A1A7A760600598E79 /* Debug */,
+				87A1398B1A7A760600598E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		87F572A01A4315E3006D5DBF /* Build configuration list for PBXNativeTarget "cocoTests" */ = {
+		87A1398C1A7A760600598E79 /* Build configuration list for PBXNativeTarget "cocoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87F572A11A4315E3006D5DBF /* Debug */,
-				87F572A21A4315E3006D5DBF /* Release */,
+				87A1398D1A7A760600598E79 /* Debug */,
+				87A1398E1A7A760600598E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		87F572821A4315E3006D5DBF /* coco.xcdatamodeld */ = {
+		87A1396E1A7A760600598E79 /* coco.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				87F572831A4315E3006D5DBF /* coco.xcdatamodel */,
+				87A1396F1A7A760600598E79 /* coco.xcdatamodel */,
 			);
-			currentVersion = 87F572831A4315E3006D5DBF /* coco.xcdatamodel */;
+			currentVersion = 87A1396F1A7A760600598E79 /* coco.xcdatamodel */;
 			path = coco.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 87F572731A4315E3006D5DBF /* Project object */;
+	rootObject = 87A1395F1A7A760600598E79 /* Project object */;
 }

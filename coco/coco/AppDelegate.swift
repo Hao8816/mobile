@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  coco
 //
-//  Created by 陈昊昊 on 18/12/14.
-//  Copyright (c) 2014 陈昊昊. All rights reserved.
+//  Created by 陈昊昊 on 29/1/15.
+//  Copyright (c) 2015 陈昊昊. All rights reserved.
 //
 
 import UIKit
@@ -16,12 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds);
-        var rootViewController = ViewController();
-        let navController = UINavigationController(rootViewController: rootViewController);
-        self.window?.backgroundColor = UIColor.whiteColor();
-        self.window?.rootViewController = navController;
-        self.window?.makeKeyAndVisible();
+        var homeView = homeViewController()
+        var cocoNav = UINavigationController(rootViewController: homeView)
+        self.window?.rootViewController = cocoNav;
+        self.window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
     }

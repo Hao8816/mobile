@@ -15,7 +15,7 @@ class homeViewController: UIViewController, UITableViewDelegate, UITableViewData
     var rightBtn : UIButton!;
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.whiteColor()
+        //self.view.backgroundColor = UIColor.whiteColor()
         titleArea = UIView(frame: CGRectMake(0, 0, screenWidth, 44))
         let titleLabel = UILabel(frame: CGRectMake(10, 0, 80, 44))
         titleLabel.text = "活动"

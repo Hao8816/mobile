@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87F5727A1A4315E3006D5DBF"
+               BlueprintIdentifier = "87A139661A7A760600598E79"
                BuildableName = "coco.app"
                BlueprintName = "coco"
                ReferencedContainer = "container:coco.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87F572921A4315E3006D5DBF"
+               BlueprintIdentifier = "87A1397E1A7A760600598E79"
                BuildableName = "cocoTests.xctest"
                BlueprintName = "cocoTests"
                ReferencedContainer = "container:coco.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "87F572921A4315E3006D5DBF"
+               BlueprintIdentifier = "87A1397E1A7A760600598E79"
                BuildableName = "cocoTests.xctest"
                BlueprintName = "cocoTests"
                ReferencedContainer = "container:coco.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87F5727A1A4315E3006D5DBF"
+            BlueprintIdentifier = "87A139661A7A760600598E79"
             BuildableName = "coco.app"
             BlueprintName = "coco"
             ReferencedContainer = "container:coco.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87F5727A1A4315E3006D5DBF"
+            BlueprintIdentifier = "87A139661A7A760600598E79"
             BuildableName = "coco.app"
             BlueprintName = "coco"
             ReferencedContainer = "container:coco.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "87F5727A1A4315E3006D5DBF"
+            BlueprintIdentifier = "87A139661A7A760600598E79"
             BuildableName = "coco.app"
             BlueprintName = "coco"
             ReferencedContainer = "container:coco.xcodeproj">

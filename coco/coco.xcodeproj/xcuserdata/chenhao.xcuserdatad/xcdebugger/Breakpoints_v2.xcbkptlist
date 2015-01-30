@@ -63,19 +63,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "coco/homeTableViewController.swift"
-<<<<<<< HEAD
-            timestampString = "442810933.133161"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
-=======
             timestampString = "441985389.786704"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
->>>>>>> a2174497603191a2851b8b8cf832058704a62773
             landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>

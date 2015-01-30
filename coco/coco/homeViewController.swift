@@ -8,7 +8,7 @@
 
 import UIKit
 
-class homeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class homeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIScrollViewDelegate{
     let screenWidth = UIScreen.mainScreen().bounds.width
     let screenHeight = UIScreen.mainScreen().bounds.height
     var titleArea : UIView!;
@@ -37,10 +37,12 @@ class homeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         
         var contentScroll = UIScrollView(frame: CGRectMake(0, 0, screenWidth, screenHeight))
-        contentScroll.contentSize = CGSizeMake(3*screenWidth, screenHeight)
+        contentScroll.contentSize = CGSizeMake(3*screenWidth, 0)
         contentScroll.pagingEnabled = true
         contentScroll.showsVerticalScrollIndicator = false
         contentScroll.showsHorizontalScrollIndicator = false
+        //contentScroll.scrollEnabled = false
+        contentScroll.directionalLockEnabled = true
         
         
         let contentView1 = UIView(frame: CGRectMake(0, 0, screenWidth, screenHeight))
@@ -61,11 +63,16 @@ class homeViewController: UIViewController, UITableViewDelegate, UITableViewData
         contentScroll.addSubview(contentView1)
         contentScroll.addSubview(contentView2)
         contentScroll.addSubview(contentView3)
-        
+        contentScroll.delegate = self
+
         self.view.addSubview(contentScroll)
         
 
         // Do any additional setup after loading the view.
+    }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView){
+        println("test")
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{

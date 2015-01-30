@@ -219,6 +219,7 @@
 				TargetAttributes = {
 					87A139661A7A760600598E79 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = A9KDJ78757;
 					};
 					87A1397E1A7A760600598E79 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -410,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = coco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = coco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,6 +482,7 @@
 				87A1398B1A7A760600598E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87A1398C1A7A760600598E79 /* Build configuration list for PBXNativeTarget "cocoTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +491,7 @@
 				87A1398E1A7A760600598E79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
